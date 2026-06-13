@@ -1,5 +1,3 @@
-import os
-import sys
 import torch
 import torch.nn as nn
 from ch03 import MultiHeadAttention
