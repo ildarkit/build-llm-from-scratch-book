@@ -15,7 +15,6 @@ if __name__ == "__main__":
        "drop_rate": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
-       "token_count": 4,
     }
     GPT_CONFIG_LARGE= {
        "emb_dim": 1280,
@@ -26,7 +25,6 @@ if __name__ == "__main__":
        "drop_rate": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
-       "token_count": 4,
     }
     GPT_CONFIG_XL = {
        "emb_dim": 1600,
@@ -37,7 +35,6 @@ if __name__ == "__main__":
        "drop_rate": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
-       "token_count": 4,
     }
     model_med = GPTModel(GPT_CONFIG_MED)
     model_large = GPTModel(GPT_CONFIG_LARGE)
