@@ -34,8 +34,8 @@ class FeedForward(nn.Module):
             nn.Linear(4 * cfg["emb_dim"], cfg["emb_dim"]),
         )
 
-def forward(self, x):
-    return self.layers(x)
+    def forward(self, x):
+        return self.layers(x)
 
 
 class TransformerBlock(nn.Module):
@@ -104,7 +104,6 @@ if __name__ == "__main__":
        "drop_rate": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
-       "token_count": 4,
     }
     model = GPTModel(GPT_CONFIG_124M)
     att_params_count = sum(
