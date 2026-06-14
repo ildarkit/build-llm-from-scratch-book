@@ -12,7 +12,9 @@ if __name__ == "__main__":
        "n_layers": 24,
        "context_length": 1024,
        "batch_size": 2,
-       "drop_rate": 0.3,
+       "drop_rate_att": 0.3,
+       "drop_rate_emb": 0.3,
+       "drop_rate_shortcut": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
     }
@@ -22,7 +24,9 @@ if __name__ == "__main__":
        "n_layers": 36,
        "context_length": 1024,
        "batch_size": 2,
-       "drop_rate": 0.3,
+       "drop_rate_att": 0.3,
+       "drop_rate_emb": 0.3,
+       "drop_rate_shortcut": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
     }
@@ -32,7 +36,9 @@ if __name__ == "__main__":
        "n_layers": 48,
        "context_length": 1024,
        "batch_size": 2,
-       "drop_rate": 0.3,
+       "drop_rate_att": 0.3,
+       "drop_rate_emb": 0.3,
+       "drop_rate_shortcut": 0.3,
        "vocab_size": 50257,
        "qkv_bias": False,
     }
