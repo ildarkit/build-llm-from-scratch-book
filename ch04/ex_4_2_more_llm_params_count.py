@@ -1,4 +1,4 @@
-from .ex_4_1_params_count import GPTModel
+from ch04.ex_4_1_params_count import GPTModel
 
 
 def count_parameters(model_module):

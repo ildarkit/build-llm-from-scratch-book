@@ -1,6 +1,6 @@
 import torch
 import tiktoken
-from .ex_4_1_params_count import GPTModel
+from ch04.ex_4_1_params_count import GPTModel
 
 
 def generate_text_simple(model, idx, max_new_tokens, context_size):
