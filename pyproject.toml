@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["ch03", "ch04"]
+packages = ["ch03", "ch04", "ch05"]
