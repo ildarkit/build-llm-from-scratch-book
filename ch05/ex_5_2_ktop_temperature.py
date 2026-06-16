@@ -239,6 +239,14 @@ if __name__ == '__main__':
         num_epochs=num_epochs, eval_freq=5, eval_iter=5,
         start_context=start_context, tokenizer=tokenizer
     )
+
+    torch.save({
+        "model_state_dict": model.state_dict(),
+        "optimizer_state_dict": optimizer.state_dict(),
+        },
+        "model_and_optimizer.pth"
+    )
+
     print(f'{tokens_seen[-1]=}')
 
     print_losses_table(train_losses, val_losses)
