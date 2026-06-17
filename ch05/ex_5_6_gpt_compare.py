@@ -99,10 +99,10 @@ def load_weights_into_gpt(gpt, params):
 
 
 if __name__ == '__main__':
-    model_name = "gpt2-small (124M)"
+    model_name = "gpt2-large (774M)"
 
     settings, params = download_and_load_gpt2(
-        model_size="124M", models_dir="gpt2"
+        model_size="774M", models_dir="gpt2"
     )
 
     print("Settings:", settings)
